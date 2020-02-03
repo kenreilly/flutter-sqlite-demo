@@ -1,9 +1,7 @@
-// Prezence - Copyright 2019 The Innovation Group
-// @author Kenneth Reilly <kenneth@innovationgroup.tech>
-
 import 'dart:async';
 import 'package:flutter_sqlite_demo/models/model.dart';
 import 'package:sqflite/sqflite.dart';
+
 abstract class DB {
 
 	static Database _db;
